@@ -4,17 +4,11 @@
     "name": "Live Fact Checker",
     "description": "Base Level Extension",
     "version": "1.0",
+    "permissions": ["activeTab","tabs"],
     "action": {
       "default_popup": "index.html",
-      "default_icon": "GayBaldEagle.png",
-      "permissions": ["activeTab","tabs"],
-      "web_accessible_resources": [
-        "js/*",
-        "html/*",
-        "css/*",
-        "img/*"
-    ]
-
+      "default_icon": "GayBaldEagle.png"
+    
     }
     
   }
