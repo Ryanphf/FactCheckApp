@@ -1,11 +1,44 @@
-<html>
-  <link rel="stylesheet" href="style.css">
-  <body>
-    <head> Fact Checker </head>
-    <h1>Extension</h1>
+<!DOCTYPE html>
+<html lang="en">
+<style type="text/css" >
+body {
+  min-width: 350px; /* your desired width */
+  max-width: 100%;
+  min-height: 550px;
+  max-height: 100%;
+  position: relative;
+  vertical-align:middle;
+}
+</style >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact Checker Extension</title>
     <script src="popup.js"></script>
-    <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=7s" target = "_blank"> Visit Our Website! </a>
-  </body>
-  <!--get link of website user is on, send to python, display returned text-->
-</html>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+    <header>
+        <h1>Fact Checker Extension</h1>
+        <p></p>
+    </header>
+
+    <section>
+        <h2>How it works</h2>
+        <p>Our fact checker extension helps you verify information on the web. Simply activate the extension and start fact-checking!</p>
+        <div class="slider-container">
+            <span class="slider-label">Enable Extension:</span>
+            <label class="switch">
+                <input type="checkbox" class="slider">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=7s" target = "_blank">Get Started</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Fact Checker Extension</p>
+    </footer>
+</body>
+</html>
